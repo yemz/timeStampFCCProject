@@ -1,11 +1,8 @@
 // server.js
-// where your node app starts
 
 // init project
 var express = require('express');
 var app = express();
-var path = require('path');
-
 
 //initialize port values
 //var port = process.env.PORT || 3000;
