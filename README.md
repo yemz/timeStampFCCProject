@@ -8,11 +8,14 @@
              3. If it does not contain a date or Unix timestamp, it returns null for those properties.
            
            
+
+
 Note: 
-For this project Amazon Web Services (AWS) was used as a server using apache with Linux Ubuntu.
+For this project Amazon Web Services (AWS) EC2 - Ubuntu - was used as a server with Apache.
 
 In case you are having a hard time setting up (AWS) apache server to use it as a localhost here are the steps that helped me:
-   1. Install apache web server – (terminal)
+
+1. Install apache web server – (terminal)
    
       apt-get install apache2
 
@@ -28,7 +31,7 @@ In case you are having a hard time setting up (AWS) apache server to use it as a
             sudo mkdir testApachedir
             
       d. Change ownership (Ubuntu was used here, but if you are using another it must be changed to that instance).
-            sudo chown Ubuntu testApachedir
+            sudo chown ubuntu testApachedir
             sudo chmod –R o+r testApachedir
             
       e. Change to subdirectory
