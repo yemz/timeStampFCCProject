@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>TimeStamp Microservice - FCC Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+   <link href="style.css" rel="stylesheet" type="text/css">
+   <style></style>
+</head>
+<body>
+   <div class = "container">
+      <h1 class = "header text-center">TimeStamp Microservice</h1>
+      <h4 class = "subheader text-center">(Back End FreeCodeCamp Project)</h4>
+         <div class = "userStories">
+           <h4 class= "stories">User stories:</h4>
+         
+             <ul>1. I can pass a string as a parameter, and it will check to see whether that string contains either 
+             a unix timestamp or a natural language date (example: January 1, 2016).</ul>
+             <ul>2. If it does, it returns both the Unix timestamp and the natural language form of that date.</ul>
+             <ul>3. If it does not contain a date or Unix timestamp, it returns null for those properties.</ul>
+           
+         </div>
+      
+      <h3>Test:</h3>
+        <code class = "text-primary bg-info">https://charming-poultry.glitch.me/january%201%202015</code><br>
+        <code class = "text-primary bg-info">https://charming-poultry.glitch.me/1420070400</code><br>
+        <code class = "text-primary bg-info">https://charming-poultry.glitch.me/123ok</code>
+            
+      <h3>Output:</h3>
+        <code class = "text-primary bg-info">
+         {
+             "unix": 1420070400,
+             "natural": "January 1, 2015"
+         }
+       </code>
+       <br>
+       <br>
+       <code class = "text-primary bg-info">
+         {
+             "unix": null,
+             "natural": null
+         }
+       </code>
+   </div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12 footer">
+  <footer class="text-center">
+
+  <i class="fa fa-copyright" aria-hidden="true"></i>TimeStamp Microservice - FreeCodeCamp Project. By
+   Yessenia Melendez. 
+  </footer>
+</div>
+  </div>
+    </div>
+
+<script type="text/javascript">
+
+</script>
+
+</body>
+     </html>
